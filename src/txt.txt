@@ -1,0 +1,41 @@
+import vscode from "./assets/vscode.jpg"
+
+function App() {
+
+  return (
+  <div className="w-full h-screen bg-black">
+     <div className="flex justify-around pt-2  text-white ">
+<div>
+<div className="flex px-2">
+<img src={vscode} alt=""  width={30} height={40}/>
+<p className="font-semibold text-lg">Visual Studio Code</p>
+
+</div>
+
+
+</div>
+
+
+
+ {/* <div className="font-medium flex space-x-4 text-gray-100 ">
+ <p>Docs</p>
+   <p>Updates</p>
+   <p>Blog</p>
+   <p>API</p>
+   <p>Extensions</p>
+   <p>FAQ</p>
+   <p>Search</p>
+   <p>GitHub Copilot</p>
+   <p>Blog</p>
+   <p>light</p>
+   <p><input type="text" /></p>
+   <button>Download</button>
+ </div> */}
+  
+   </div>
+
+  </div>
+  )
+}
+
+export default App
